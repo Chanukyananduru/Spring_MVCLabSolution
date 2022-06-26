@@ -22,7 +22,7 @@ public class StudentController {
 	private StudentServices studentservice;
 
 	@RequestMapping("/list") //"/list"
-	public String listBooks(Model theModel) {
+	public String listStudents(Model theModel) {
 
 		System.out.println("Request to list all students received");
 		List<Student> allStudents = studentservice.findAll();
