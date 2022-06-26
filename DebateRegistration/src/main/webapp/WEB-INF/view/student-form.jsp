@@ -35,7 +35,7 @@
 
 			<div class="form-inline">
 				<input type="text" name="firstName" value="${Student.firstName}"
-					class="form-control mb-4 col-4" placeholder="FristName">
+					class="form-control mb-4 col-4" placeholder="FirstName">
 
 
 
@@ -52,7 +52,7 @@
 
 			<div class="form-inline">
 
-				<input type="text" name="course" value="${Student.department}"
+				<input type="text" name="department" value="${Student.department}"
 					class="form-control mb-4 col-4" placeholder="Department">
 
 
@@ -72,7 +72,7 @@
 		</form>
 
 		<hr>
-		<a href="/StudentManagement/student/list">Back to Students List</a>
+		<a href="/DebateRegistration/student/list">Back to Students List</a>
 
 	</div>
 </body>

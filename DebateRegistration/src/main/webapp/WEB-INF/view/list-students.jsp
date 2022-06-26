@@ -60,10 +60,11 @@
 						<td><c:out value="${tempStudent.country}" /></td>
 						<td>
 							<!-- Add "update" button/link --> <a
-							href="/DebateRegistration/student/showFormForUpdate?studentId=${tempStudent.id}"
-							class="btn btn-info btn-sm"> Update </a> <!-- Add "delete" button/link -->
+							href="/DebateRegistration/student/showFormForUpdate?id=${tempStudent.id}"
+							class="btn btn-info btn-sm"> Update </a> 
+							<!-- Add "delete" button/link -->
 							<a
-							href="/DebateRegistration/student/delete?studentId=${tempStudent.id}"
+							href="/DebateRegistration/student/delete?id=${tempStudent.id}"
 							class="btn btn-danger btn-sm"
 							onclick="if (!(confirm('Are you sure you want to delete this Student?'))) return false">
 								Delete </a>
